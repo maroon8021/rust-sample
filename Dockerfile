@@ -2,4 +2,4 @@ FROM rustlang/rust:nightly
 
 ENV USER=userName
 WORKDIR /src
-RUN apt-get update
+RUN cargo install cargo-watch
